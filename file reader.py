@@ -6,12 +6,12 @@ Created on Thu Jul  1 11:59:43 2021
 """
 
 import numpy as np
-
+"""
 struct_hms = open('struct_hms.inc.text')
 struct_shms = open('struct_shms.inc.text')
 spectrometer = open('spectrometers.inc.txt')
 constrants = open('constrants.inc.txt')
-
+"""
 
 SHMS = {'shmsSTOP_trials':0,'shmsSTOP_targ_hor':0,'shmsSTOP_targ_vert':0,
         'shmsSTOP_targ_oct':0,'shmsSTOP_FRONTSLIT_hor':0,'shmsSTOP_FRONTSLIT_vert':0,
@@ -40,14 +40,14 @@ HMS = {'hSTOP_trials':0,'hSTOP_fAper_hor':0,'hSTOP_fAper_vert':0,'hSTOP_fAper_oc
 	   'hSTOP_dc2':0,'hSTOP_scin':0,'hSTOP_cal':0,'hSTOP_successes':0,'hSTOP_id':0}
 
 
-
+"""
 input_file = input('Enter input filename (assumed to be in infiles dir :')
 if input_file == 'hut_ntuple':
     hbook_filename = input_file + '.rzdat'
 else:
     filename = input_file + '.inp'
     print(filename, " is opened")
-
+"""
 
 
 
